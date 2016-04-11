@@ -1,0 +1,79 @@
+body{background-color: dark gray}
+
+.container{background-color:#505050;
+			width:600px;
+			margin: 0 auto;
+			box-shadow: 5px;
+			padding: 25px;
+		}
+
+img{width: 125px;
+	float:left;
+	padding:12px;
+	padding-top:25px;
+	box-shadow: 1px 5px 5px black;
+}
+article{min-height:325px;
+	  padding: 10px;
+	  background-color:Red;
+	  border-radius: 5px;
+	  box-shadow: 5px 5px 5px black;
+	  margin-bottom: 25px;
+	  font-style: black;
+	  font-weight: bold;
+}
+nav p{display: inline-block;
+	 margin-right: 25px;	
+}
+nav{text-align:center;}
+nav a{background-color: black;
+	border-radius: 5px;
+	padding: 5px;
+	box-shadow: 5px 5px 5px red;}
+nav a:link{color:gray; text-decoration:none;}
+nav a:hover{color:black; font-style:italic;}
+nav a:visited{color:gray; font-size:2em;}
+
+img.island{float:left;width:400px;}
+article.island{background-color: Red; text-align:center;}
+/* small screen/ tablet styles */
+@media screen and (max-width:500px){
+	article{
+		padding:1em;
+	}
+	h1{
+		font-size:2.5em;
+		line-height:1.4em;
+		text-align:center;		
+	}
+	p{
+		float:left;
+		display: inline;
+	}
+	footer{
+		left-margin:30%;
+	}
+}
+/* standard screen styles */
+@media screen and (max-width:750px){
+	article{
+		width:65%;
+		padding:1em;
+		float:center;
+	}	
+}
+/* Full screen styles */
+@media screen and (min-width:1000px){
+	article{
+		width:65%;
+		padding:1em;
+		float:center;
+	}
+	h1{
+		font-size:2.5em;
+		line-height:1.4em;
+		text-align:center;
+	}
+	
+}
+}
